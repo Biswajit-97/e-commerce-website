@@ -74,7 +74,7 @@ const Cart = () => {
                             products.length < 1
                             ? 
                             <Items style={{justifyContent:'center'}}>
-                                <iframe title="random gif" src="https://giphy.com/embed/nKERd2uhn8hhe" width="180" height="180" style={{pointerEvents:'none',border:'0'}}></iframe>
+                                <h5>No item on cart</h5>
                             </Items>
                             : products.map(displayItems)
                         }
