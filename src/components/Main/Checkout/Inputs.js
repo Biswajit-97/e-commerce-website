@@ -90,7 +90,7 @@ const Inputs = () => {
             <FormGroup>
                 <FormLabel>
                     <FormSpan style={errors.name ? errorColor: {}}>Name</FormSpan>
-                    <FormInput {...register("name")} style={errors.name ? errorBorder: {}} placeholder='Handsome'/>
+                    <FormInput {...register("name")} style={errors.name ? errorBorder: {}} placeholder='any name'/>
                     <Error>{errors.name?.message}</Error>
                 </FormLabel>
                 <FormLabel>
@@ -100,7 +100,7 @@ const Inputs = () => {
                 </FormLabel>
                 <FormLabel>
                     <FormSpan style={errors.phoneNumber ? errorColor: {}}>Phone Number</FormSpan>
-                    <FormInput {...register("phoneNumber")} style={errors.phoneNumber ? errorBorder: {}} placeholder='+45 555-0136'/>
+                    <FormInput {...register("phoneNumber")} style={errors.phoneNumber ? errorBorder: {}} placeholder='+91 555-0136'/>
                     <Error>{errors.phoneNumber?.message}</Error>
                 </FormLabel>
             </FormGroup>
@@ -109,22 +109,22 @@ const Inputs = () => {
             <FormGroup>
                 <FormLabel data-address>
                     <FormSpan style={errors.address ? errorColor: {}}>Address</FormSpan>
-                    <FormInput {...register("address")} style={errors.address ? errorBorder: {}}  placeholder='1137 Williams Avenue'/>
+                    <FormInput {...register("address")} style={errors.address ? errorBorder: {}}  placeholder='113 netaji Avenue'/>
                     <Error>{errors.address?.message}</Error>
                 </FormLabel>
                 <FormLabel>
                     <FormSpan style={errors.zipCode ? errorColor: {}}>Zip Code</FormSpan>
-                    <FormInput {...register("zipCode")} style={errors.zipCode ? errorBorder: {}} placeholder='10001'/>
+                    <FormInput {...register("zipCode")} style={errors.zipCode ? errorBorder: {}} placeholder='700000'/>
                     <Error>{errors.zipCode?.message}</Error>
                 </FormLabel>
                 <FormLabel>
                     <FormSpan style={errors.city ? errorColor: {}}>City</FormSpan>
-                    <FormInput {...register("city")} style={errors.city ? errorBorder: {}} placeholder='Copenhagen'/>
+                    <FormInput {...register("city")} style={errors.city ? errorBorder: {}} placeholder='kolkata'/>
                     <Error>{errors.city?.message}</Error>
                 </FormLabel>
                 <FormLabel>
                     <FormSpan style={errors.country ? errorColor: {}}>Country</FormSpan>
-                    <FormInput {...register("country")} style={errors.country ? errorBorder: {}} placeholder='Denmark'/>
+                    <FormInput {...register("country")} style={errors.country ? errorBorder: {}} placeholder='india'/>
                     <Error>{errors.country?.message}</Error>
                 </FormLabel>
 
