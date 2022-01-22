@@ -26,7 +26,7 @@ const HomeMain = () => {
                 <MainSpeakerWrapper>
                     <MainSpeakerImg 
                         data-aos="fade-up" 
-                        data-aos-duration="1000" 
+                        data-aos-duration="200" 
                         imageSrc={speakerZX9Img} 
                         role="img"
                         aria-label="ZX9 speaker product image background" />
